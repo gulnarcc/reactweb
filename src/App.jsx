@@ -82,8 +82,8 @@ Fresh Bakes Made Special For <br/> YouSweet Moments
 <div className="card-img-overlay position-absolute headling_title ">
   <img src="/images/k1.png" className='k1' /> <img src="/images/k2.png" className='k2'/> <img src="/images/k3.png" className='k3'/>
    <img src="/images/k4.png" className='k4'/> <img src="/images/k5.png" className='k5'/>
-<p>-50 dək endirim</p>
-<p><span>Ilkin odenishsiz</span><span>Komissiyasiz</span><span>Ilkin odenishsiz</span></p>
+<p className='ke1'>-50 dək endirim</p>
+<p className='ke2'><span>Ilkin odenishsiz</span><span>Komissiyasiz</span><span>Ilkin odenishsiz</span></p>
 </div>
 </div>
 

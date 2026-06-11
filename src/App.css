@@ -164,16 +164,26 @@ background: linear-gradient(90deg,rgba(241, 3, 30, 1) 7%, rgba(165, 4, 26, 1) 67
 .k1{
 position: absolute;
     top: 49px;
-    left: 59px;
+    left: 45px;
     height: 152px;
+     animation: my1 1s forwards;
 }
-
+@keyframes my1 {
+  from {left:-200px;}
+  to { left: 45px;}
+}
 
 .k2{
 position: absolute;
     height: 100px;
     top: 117px;
     left: 205px;
+     animation: my2 1s forwards;
+}
+
+@keyframes my2 {
+  from {left:-200px;}
+  to { left: 205px;}
 }
 
 .k3{
@@ -181,6 +191,11 @@ position: absolute;
     height: 165px;
     top: 238px;
     left: 336px;
+     animation: my3 1s forwards;
+}
+@keyframes my3 {
+  from {left:-200px;}
+  to { left: 336px;}
 }
 
 .k4{
@@ -188,13 +203,57 @@ position: absolute;
     height: 128px;
     top: 148px;
     left: 327px;
+     animation: my4 1s forwards;
 }
 
-
+@keyframes my4 {
+  from {left:-100px;}
+  to {left: 327px;}
+}
 
 .k5{
     height: 230px !important;
     position: absolute;
     top: 162px;
     left: 11px;
+    animation: my5 1s forwards;
+}
+
+
+@keyframes my5 {
+  from {left:-100px;}
+  to {left:11px;}
+}
+
+.ke1{
+position: absolute;
+right: -100px;
+background-color: #ffffff;  
+padding:10px;
+font-size: 30px;
+color:#F1031E;
+animation: myke1 1s forwards;
+
+}
+
+@keyframes myke1 {
+  from {right:-100px;}
+  to {right:11px;}
+}
+
+.ke2 {
+position: absolute;
+right: -100px;
+top:100px;
+background-color: #ffffff;  
+padding:10px;
+font-size: 30px;
+color:#F1031E;
+animation: myke2 1s forwards;
+
+}
+
+@keyframes myke2 {
+  from {right:-100px;}
+  to {right:11px;}
 }
