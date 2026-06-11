@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2 id="demo"></h2>
+<h2 id="demo1"></h2>
+<h2 id="demo2"></h2>
+ <script>
+let price="30.33"
+
+let nprice=parseInt(price) 
+
+
+//alert("yeni qiymet  " + nprice)
+
+document.getElementById("demo").innerHTML="Əvvəlki  qiymet " + price
+document.getElementById("demo1").innerHTML="yeni qiymet  " + nprice
+
+
+/* let a=prompt("a:")
+let b=prompt("b:")
+
+let c=Number(a)+Number(b)
+document.getElementById("demo2").innerHTML="Cavab:  " + c */
+
+let a=prompt("a:")
+
+let message=(a==1)? "a bire beraberdir": "a birden ferqlidir"
+
+document.getElementById("demo2").innerHTML=message
+
+
+
+
+
+
+</script>   
+</body>
+</html>

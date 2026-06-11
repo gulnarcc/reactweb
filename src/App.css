@@ -1,0 +1,200 @@
+
+
+body{
+  padding:0 1vw;
+}
+/* App.css */
+
+
+.none{
+  display: none;
+}
+
+.block{
+  display: block;
+}
+
+.popup{
+width: 40%;
+    height: 100px;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 10%;
+    top: 2vw;
+}
+.favlist{
+  position:absolute;
+  left:20%;
+  top:100px;
+  width:60%;
+  min-height: 600px;
+  background-color: antiquewhite;
+  color: black;
+  z-index:2000
+
+}
+
+.message{
+width: fit-content;
+    height: fit-content;
+    background-color: bisque;
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    padding: 2vw;
+       z-index: 99999;
+}
+
+.message img{
+  height:100px
+}
+.cbutton{
+border-radius: 0;
+    border: none!important;;
+    background: none!important;
+    padding:1vw;
+
+}
+.smallimg{
+  height:100px;
+}
+
+.grey{
+  color: rgb(55, 54, 54);
+}
+.red{
+  color: red;
+}
+.blue{
+  background-color: rgb(91, 29, 214);
+}
+
+.green{
+  background-color: green;
+}
+
+.greenc{
+  color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(238, 165, 81)!important;
+  margin: 10px;
+}
+
+.active {
+  color: rgb(184, 110, 6)!important;;
+  font-weight: bold;
+  transition: all 1s;
+}
+
+.nav-tabs .nav-link {
+
+    border-top-left-radius: 0;
+    border-top-right-radius: none;
+    border-radius: 30px !important;
+    background: #dcd0d0;
+    color: black;
+}
+
+.nav-tabs {
+
+      border-bottom: 0!important;
+}
+
+/* yeni */
+
+ .kflex{
+
+  gap:10px;
+
+}
+
+
+
+
+.kflex img{
+width: 100px !important;
+    height: 80px !important;
+}
+
+
+
+.slider{
+  width:100%;
+  overflow:hidden;
+}
+
+.slide-track{
+  display:flex;
+  gap:15px;
+  width:max-content;
+  animation: scroll 20s linear infinite;
+}
+
+.slide-track img{
+  width:200px;
+  height:150px;
+  object-fit:cover;
+  flex-shrink:0;
+}
+
+@keyframes scroll{
+  from{
+    transform:translateX(0);
+  }
+  to{
+    transform:translateX(-50%);
+  }
+}
+
+.bgk{
+  background: #F1031E;
+background: linear-gradient(90deg,rgba(241, 3, 30, 1) 7%, rgba(165, 4, 26, 1) 67%, rgba(164, 4, 27, 1) 100%);
+      height: 400px !important;
+    position: relative !important;
+
+}
+
+
+.k1{
+position: absolute;
+    top: 49px;
+    left: 59px;
+    height: 152px;
+}
+
+
+.k2{
+position: absolute;
+    height: 100px;
+    top: 117px;
+    left: 205px;
+}
+
+.k3{
+position: absolute;
+    height: 165px;
+    top: 238px;
+    left: 336px;
+}
+
+.k4{
+    position: absolute;
+    height: 128px;
+    top: 148px;
+    left: 327px;
+}
+
+
+
+.k5{
+    height: 230px !important;
+    position: absolute;
+    top: 162px;
+    left: 11px;
+}

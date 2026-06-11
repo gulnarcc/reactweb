@@ -1,0 +1,467 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+nav{
+    background-color: #3d2010;
+    color: #f8eb05;
+}
+
+
+
+
+.heart {
+  cursor: pointer;
+  color: gray;
+  transition: 0.3s;
+}
+
+.heart.active {
+  color: red;
+  transform: scale(1.2);
+}
+
+
+.cart.active{
+background-color: blue;
+color: aliceblue;
+}
+
+.mydiv{
+    width:100%;
+    height:200px;
+    position: relative;
+    top:500px;
+    background-color: brown;
+}
+body {
+ padding-top: 0px; 
+}
+.container{
+  margin-top:5vw;
+}
+nav{
+  background-color: #653208;
+}
+
+.buynow{
+    border: none;
+    border-radius: 1.7rem;
+    padding: 1rem 1.5rem;
+    color: #653208;
+    background: beige;
+    text-decoration: none;
+    margin: 1rem;
+    display: block;
+    width: fit-content;
+    position: relative;
+    left: 0vw;
+    font-size: 1.3vw;
+}
+
+.headling_title{
+left: 0;
+
+    top: 9vw;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headling_t{
+  font-size:1.3vw;
+}
+.headling{
+  font-size: 1.5rem;
+    font-weight: 100;
+    color: #653208;
+}
+
+
+.bg-brown{
+background-color:#3d2010;
+}
+.btn-brown{
+   background-color:none;
+   color:#653208;
+   border: 1px solid #653208 ;
+}
+
+.card .card-body .card-title {
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  color: #a35408 !important;
+}
+
+.card-text{
+          font-size: 1.2rem !important;
+          color:#653208;
+        font-weight: 400 !important;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+.margintop{
+margin-top: 3rem;
+}
+
+
+i{
+  font-display: swap
+}
+#cardFavList li {
+list-style: none;
+border-bottom: 1px solid #999;
+
+}
+
+
+.card{
+display:flex;
+justify-content: center;
+align-items: center;
+border: none;
+}
+.card-body .fa-heart{
+  width:20%;
+}
+
+.card-body .btn-primary{
+    width:75%;
+}
+
+.heart {
+font-size: 1rem;
+    color: #a35408;
+    cursor: pointer;
+    padding: 0 1.5rem 0 0;
+}
+
+.like {
+    color: red;
+}
+
+nav li i{
+  color:bisque;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+nav li {
+  margin:0.5vw 0.5vw;
+}
+
+#favCount{
+  padding:10px
+}
+
+
+
+
+
+
+#cartlistModal{
+    position: fixed;
+    width: 20vw;
+    height: 8vw;
+    background: #ccc;
+    top: 4vw;
+    left: 45%;
+    padding:1vw;
+    z-index: 1000;
+    opacity: 0;
+    overflow-y: hidden;
+}
+
+#closec{
+  position: absolute;
+    top: 1vw;
+    right: 1vw;
+        font-size: 38px;
+    color: aliceblue;
+    cursor: pointer;
+    display:none;
+}
+
+.tocartadded{
+  background-color: blue;
+}
+
+.favListModal{
+    position: fixed;
+    width: 20vw;
+    height: 8vw;
+    background: #ccc;
+    top: 10vh;
+    left: 30vw;
+    z-index: 2000;
+    padding: 1vw 0;
+    opacity: 0;
+    overflow-y: hidden;
+}
+
+.favanimation{
+  animation: fadeOut 1s backwards
+}
+
+.newfav{
+  overflow-y:auto;
+  height:90vh;
+  width: 100vw;
+  top: 4vw;
+    left:0;
+}
+
+#closef{
+position: absolute;
+    right: 40px;
+    top: 2vw;
+    font-size: 38px;
+    color: aliceblue;
+        padding: 20px;
+    cursor: pointer;
+    display:none;
+    z-index: 20000;
+}
+
+@keyframes fadeOut {
+  from {  opacity:0;}
+  to {  opacity:1; }
+}
+
+
+.block{
+  display:block!important;
+  opacity: 1!important;
+  
+}
+
+
+.blockwidth{
+  display:block !important;
+  opacity: 1 !important;
+  width: 100vw !important;
+    left: 0 !important;
+    height: 90vh !important;
+}
+
+
+
+
+
+#countf{
+color: black;
+    margin-left: 48px;
+}
+
+
+.favanimation{
+
+ animation: fadeOutlist 1s backwards
+}
+
+
+#favList li img{
+  height:40px
+}
+
+#favList li {
+ list-style: none;
+margin-bottom: 3vw;
+ 
+}
+
+#favList li span{
+ padding-left: 10px;
+  padding-right: 10px;
+ 
+}
+
+
+@keyframes fadeOutlist {
+  0% {
+    opacity: 0;
+    
+  }
+
+    100% {
+    opacity: 1;
+  
+  }
+
+}
+
+.favModal{
+
+  padding: 10px;
+  position: absolute;
+  left: 41%;
+  top: 10%;
+  z-index: 100;
+  opacity:0;
+  display:none;
+
+/* animation: fadeOut 3s forwards;  */
+}
+
+
+.fadeOut{
+  background-color: aliceblue;
+ animation: fadeOut 3s backwards; 
+  display: block!important;
+  opacity:0;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+     display: block;
+  }
+
+    50% {
+    opacity: 1;
+     display: block;
+  }
+
+      100% {
+    opacity: 0;
+     display: none;
+  }
+
+}
+
+.displayblock{
+
+  display: block;
+  opacity:1;
+}
+
+.displayanimation{
+   animation: fadeIn 1s forwards; 
+  display: none;
+  opacity:0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+     display: none;
+  }
+
+
+      100% {
+    opacity: 1;
+     display:block;
+  }
+
+}
+
+.card h5{
+text-align: center;
+}
+
+.violet i{
+font-size:40px;
+color:rgb(152, 10, 126);
+}
+
+.width40{
+  width: 40%;
+}
+
+.mabsolute{
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+
+
+
+
+
+.nav-item i{
+  color:bisque;
+  text-decoration: none;
+  font-size:1.1rem !important;
+}
+
+.nav-item a:hover{
+  color:rgb(241, 196, 140);
+  text-decoration: none;
+
+}
+
+.container h2{
+      margin: 3rem;
+      color:#653208;
+}
+
+.hidden{
+  visibility: none;
+}
+.none{
+  display: none;
+}
+
+.formsearch{
+  color:bisque
+}
+
+.formsearch i{
+  color:bisque
+}
+
+.dropdown-menu li a {
+  color:#653208
+}
+
+.bisque{
+  color: bisque;
+}
+
+.bg-bisque{
+ background-color: bisque;
+}
+
+
+
+
+
+
+
+.v-bg-grey{
+  background-color: rgb(181, 181, 193);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+ color: blueviolet;   
+}
+
+.v-bg-grey{
+ background-color: rgb(226, 219, 219);
+}
+
+
+.v-bg-violet{
+ background-color: rgb(177, 12, 166);
+}
+
+.carousel-item img{
+  height:300px;
+}
+
+
+.v-border-r{
+  border-right: 1px solid #ccc;
+}
+
+
+.zvideo{
+width:100%;
+}
+
